@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "icon_emapps.png",
+      "filename" : "ic_emapps.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "icon_emapps@2x.png",
+      "filename" : "ic_emapps@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icon_emapps@3x.png",
+      "filename" : "ic_emapps@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
