@@ -12,7 +12,7 @@
     <item>
         <bitmap
             android:gravity="bottom|center"
-            android:src="@mipmap/ic_emapps_launch" />
+            android:src="@mipmap/ic_emapps" />
     </item>
 
 </layer-list>

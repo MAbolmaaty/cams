@@ -11,7 +11,7 @@ class UserRepository {
   Future<FeedResponse> getFeeds() async {
     var params = {
       "api_key": apiKey,
-      "query": "messi",
+      "query": "nba",
       "size": "medium",
       "orientation": "portrait"
     };
