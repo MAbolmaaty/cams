@@ -39,7 +39,7 @@ dependencies:
   ionicons: ^0.1.2
   dio: ^4.0.4
   equatable: ^2.0.3
-  video_player: ^2.2.11
+  video_player: ^2.2.18
 
 dev_dependencies:
   flutter_test:
