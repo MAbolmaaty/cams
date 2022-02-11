@@ -19,17 +19,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Pav-jb-WIR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="puK-W8-ypb">
-                                <rect key="frame" x="138.5" y="411" width="137" height="74.5"/>
+                                <rect key="frame" x="136" y="392" width="142.5" height="112"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EmAppsIcon" translatesAutoresizingMaskIntoConstraints="NO" id="kst-a4-Lzb">
-                                <rect key="frame" x="167.5" y="734" width="79" height="128"/>
+                                <rect key="frame" x="164.5" y="727" width="85" height="135"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="puK-W8-ypb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AEm-X7-WDF"/>
+                            <constraint firstItem="Pav-jb-WIR" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="AWl-AY-g4f"/>
+                            <constraint firstAttribute="bottom" secondItem="Pav-jb-WIR" secondAttribute="bottom" id="WCa-8Y-fLY"/>
+                            <constraint firstItem="Pav-jb-WIR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Yf3-7Q-6C9"/>
+                            <constraint firstAttribute="trailing" secondItem="Pav-jb-WIR" secondAttribute="trailing" id="gVE-sH-Tuh"/>
                             <constraint firstItem="puK-W8-ypb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hfD-Gj-ErM"/>
+                            <constraint firstItem="Pav-jb-WIR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="lsJ-tX-O7C"/>
+                            <constraint firstItem="Pav-jb-WIR" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="mfL-HH-UQf"/>
                             <constraint firstItem="kst-a4-Lzb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xLC-dw-ZnT"/>
                             <constraint firstAttribute="bottom" secondItem="kst-a4-Lzb" secondAttribute="bottom" constant="34" id="xTv-2F-QKt"/>
                         </constraints>
@@ -41,7 +50,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="EmAppsIcon" width="79" height="128"/>
-        <image name="SplashIcon" width="137" height="74.5"/>
+        <image name="EmAppsIcon" width="85" height="135"/>
+        <image name="LaunchBackground" width="936.5" height="399.5"/>
+        <image name="SplashIcon" width="142.5" height="112"/>
     </resources>
 </document>
